@@ -7,7 +7,7 @@
 					$(this)
 						.data('accordion-toggled', false)
 						.find('.articleContent').fadeOut(1).end()
-						.find('h1').prepend('<span class="accordion">[+]</span>');
+						.find('h1').prepend('<span class="accordion" style="cursor:pointer;">[+]</span>');
 
 					$(this).find('.accordion')
 						.click(function(){
